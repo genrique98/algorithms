@@ -5,7 +5,7 @@ import (
 	"math"
 )
 
-func Main() {
+func GetMerge() {
 	size := 1
 	fmt.Println("Enter size of array:")
 	fmt.Scanln(&size)
