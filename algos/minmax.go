@@ -10,7 +10,6 @@ func GetMinMax() {
 	fmt.Scanln(&size)
 
 	var numbers []int = make([]int, size)
-	fmt.Printf("size: %v \n", size)
 
 	fmt.Println("Enter numbers in array:")
 	for i := 0; i < size; i++ {
